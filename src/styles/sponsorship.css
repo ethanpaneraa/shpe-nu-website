@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+
+li, a {
+    font-family: "Open Sans", "sans-serif"; 
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0%;
+
+}
+
+
+
+.logo {
+    cursor: pointer;
+    padding-right: 10%;
+    padding-top: 1px;
+
+    
+
+}
+
+.nav__links__left {
+    list-style: none;
+}
+
+.nav__links__left li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.nav__links__left li a {
+    transition: all 0.3s ease 0s;
+    /* background-color: beige; */
+}
+
+.nav__links__left li a:hover {
+    color: #14245c
+
+}
+
+ .selected {
+    border-bottom: 2px solid #14245c;
+ }
+
+ .social-media {
+    display: inline-block;
+    padding: 2px 3px;
+ }
+
+ .follow-us {
+    font-family: "Open Sans", "sans-serif"; 
+    font-weight: 400;
+    font-size: 14px;
+    color: #14245c;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5px;
+ }
+
+ .container {
+    position: relative;
+    text-align: center;
+ }
+
+ .banner {
+    width: 100%; 
+ }
+
+ .middle {
+    font-family: "Open Sans", "sans-serif";
+    position: absolute;
+    top: 80%;
+    left: 81.6%;
+    transform: translate(-40%, -50%);
+    background:none !important;
+    color: white;
+    text-align: left;
+    /* background-color: red; */
+}
+
+
+.lol {
+    font-family: "Open Sans", "sans-serif";
+    font-weight: bold;
+    /* background:none !important; */
+    background:none !important;
+    position: absolute;
+    top: 47%;
+    /* left: 35%; */
+    right: 3%;
+    color: white;
+    text-align: left;
+    /* padding-top: 10px; */
+    /* padding-right: 15px; */
+    /* background-color: red; */
+    font-size: 25px;
+    
+}
+
+.lol2 {
+    font-family: "Open Sans", "sans-serif";
+    font-weight: bold;
+    /* background:none !important; */
+    background:none !important;
+    position: absolute;
+    top: 55%;
+    left: 74%;
+    right: 3%;
+    color: white;
+    text-align: left;
+    /* padding-top: 10px; */
+    /* padding-right: 15px; */
+    /* background-color: red; */
+    font-size: 25px;
+    
+}
+
+
+
+
+.sponsor-txt {
+    font-family: "Open Sans", "sans-serif"; 
+    background:none !important;
+    /* color: white; */
+    /* font-size: 25px; */
+    text-align: left;
+    font-size: 15px;
+    /* top: 45%; */
+    /* right: 3%; */
+
+}
+
+.packet {
+    font-family: "Open Sans", "sans-serif";
+    color: black;
+    font-size: 16px;
+    padding-top: 20px;
+    /* background-color: red; */
+}
+
+.button {
+    padding-top: 5px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
