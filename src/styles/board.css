@@ -75,13 +75,21 @@ header {
     padding-right: 5px;
  }
 
+.grid-board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+.grid-square {
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    row-gap: 40px;
+    margin-top: 10px;
+}
 
 
-
-
-
-
-
-
-
-
+.picture {
+    width: 100px;
+}
