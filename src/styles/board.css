@@ -91,5 +91,6 @@ header {
 
 
 .picture {
-    width: 100px;
+    width: 300px;
+    border-radius: 20%; /*round off the corners*/
 }
