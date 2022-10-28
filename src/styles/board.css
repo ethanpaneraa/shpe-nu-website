@@ -94,3 +94,11 @@ header {
     width: 300px;
     border-radius: 20%; /*round off the corners*/
 }
+
+
+.bott-art {
+    position: relative;
+    max-width: 100%;
+    bottom: 0;
+    display: block;
+}
