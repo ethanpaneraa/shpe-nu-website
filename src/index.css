@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     background-color: white;
+    font-family: "Open Sans", "sans-serif ";
 }
 
 
@@ -18,12 +19,18 @@ li, a {
 }
 
 
-header {
+header{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px 0%;
 
+}
+
+h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 
@@ -102,21 +109,58 @@ header {
     background:none !important;
     color: white;
     font-size: 40px;
+
+    position: relative;
+    top: -50px;
 }
 
 .about-us {
     font-family: "Open Sans", "sans-serif ";
     padding-top: 20px;
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 
 .about-us-paragraph {
     font-family: "Open Sans", "sans-serif ";
-    font-size: 14px;
+    /* font-size: 14px; */
     padding-top: 15px;
+    width: 33.33%;
+    position: relative;
+    left: 32.5%;
+    padding-bottom: 50px;
+}
+
+.subtitle{
+    font-size: 32px;
+    color: gray;
+}
+
+.grid_board{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.grid-sq{
+    float: left;
+    width: 25%;
+
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    row-gap: 40px;
+    margin-top: 10px;
+    border-bottom: 50px;
 }
 
 
+.bott-art {
+    position: relative;
+    max-width: 100%;
+    bottom: 0;
+    display: block;
+}
 
 
 
