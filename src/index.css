@@ -59,7 +59,8 @@ h3{
 }
 
 .nav__links__left li a:hover {
-    color: #14245c
+    color: #14245c;
+    background-color: #E6E6FA;
 
 }
 
