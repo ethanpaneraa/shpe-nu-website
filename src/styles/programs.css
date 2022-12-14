@@ -52,7 +52,8 @@ header {
 }
 
 .nav__links__left li a:hover {
-    color: #14245c
+    color: #14245c;
+    background-color: #E6E6FA;
 
 }
 
@@ -84,9 +85,26 @@ header {
     display: block;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    transform: scale(0.85);
+}
 
+.grid-cont {
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    row-gap: 40px;
+    margin-top: 10px;
+}
 
+.grid-cont p {
+    text-align: left;
+    font-size: 20px;
+}
 
-
-
-
+.grid-cont h1 {
+    color: #54078A;
+}
