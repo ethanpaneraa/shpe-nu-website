@@ -76,9 +76,29 @@ header {
     padding-right: 5px;
  }
 
- .container {
+ .butt {
     position: relative;
     text-align: center;
+    padding-top: 110px;
+ }
+
+ .button {
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(84, 7, 138, 0.5);
+ }
+
+ .button:hover {
+    border-color: #14245c;
+    border-style: solid;
+    border-radius: 100px;
+
+    background-color: rgb(84, 7, 138);
  }
 
  .banner {
@@ -97,44 +117,35 @@ header {
     /* background-color: red; */
 }
 
-
-.lol {
-    font-family: "Open Sans", "sans-serif";
-    font-weight: bold;
-    /* background:none !important; */
-    background:none !important;
-    position: absolute;
-    top: 47%;
-    /* left: 35%; */
-    right: 3%;
-    color: white;
-    text-align: left;
-    /* padding-top: 10px; */
-    /* padding-right: 15px; */
-    /* background-color: red; */
-    font-size: 25px;
-    
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    transform: scale(0.85);
 }
 
-.lol2 {
-    font-family: "Open Sans", "sans-serif";
-    font-weight: bold;
-    /* background:none !important; */
-    background:none !important;
-    position: absolute;
-    top: 55%;
-    left: 74%;
-    right: 3%;
-    color: white;
-    text-align: left;
-    /* padding-top: 10px; */
-    /* padding-right: 15px; */
-    /* background-color: red; */
-    font-size: 25px;
-    
+.grid-cont {
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    row-gap: 40px;
+    margin-top: 10px;
 }
 
+.grid-cont p {
+    text-align: left;
+    font-size: 20px;
+}
 
+.grid-cont h1 {
+    color: #54078A;
+}
+
+.pic {
+    width: 1000px;
+    height: auto;
+    border-radius: 30px;
+}
 
 
 .sponsor-txt {
@@ -157,22 +168,10 @@ header {
     /* background-color: red; */
 }
 
-.button {
-    padding-top: 5px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 35px;
-    cursor: pointer;
-
-}
-
-
-
 .bott-art {
-    position: relative;
+    position: absolute;
     max-width: 100%;
-    bottom: 0;
-    display: block;
+    bottom: 0px;
 }
 
 
