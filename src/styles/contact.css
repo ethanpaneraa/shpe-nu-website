@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -83,6 +85,71 @@ header {
     bottom: 0;
     display: block;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10%; 
+    padding: 7%; 
+    transform: scale(0.85);
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 39px;
+    color: #54078A;
+}
+
+.small-text {
+    padding-top: 3%; 
+    font-size: 20px;
+}
+
+
+.message {
+    min-height: 110px;
+    border: none;
+    outline: none;
+    background: #F0F1F8;
+    
+}
+
+
+.form-input {
+    height: 40px;
+    width: 100%;
+    margin: 12px 0;
+    border-radius: 25px;
+}
+
+.form-input input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none; 
+    font-size: 16px;
+    background: #F0F1F8; 
+    border-radius: 7px;
+    padding: 0 15px; 
+}
+
+.form-button {
+    display: inline-block;
+    margin-top: 12px;   
+}
+
+.form-button input[type="button"] {
+    cursor: pointer;
+    color: #FFFF;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: #3e2093;
+    padding: 8px 16px;
+    border-radius: 7px;
+}
+
+
 
 
 

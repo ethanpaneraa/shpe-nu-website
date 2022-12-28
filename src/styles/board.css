@@ -103,3 +103,14 @@ header {
     bottom: 0;
     display: block;
 }
+
+.exec-board-text {
+    padding-top: 5%;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 39px;
+    color: #54078A;
+    /* display: flex; */
+
+}
