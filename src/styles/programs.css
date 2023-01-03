@@ -23,10 +23,18 @@ header {
     justify-content: center;
     align-items: center;
     padding: 15px 0%;
+    font-family: "Open Sans", "sans-serif ";
 
 }
 
+.heading {
+    font-family: "Open Sans", "sans-serif ";
+    font-weight: bolder;
+}
 
+p {
+    font-family: "Open Sans", "sans-serif ";
+}
 
 .logo {
     cursor: pointer;

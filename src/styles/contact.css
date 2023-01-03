@@ -98,11 +98,14 @@ header {
     font-weight: bold;
     font-size: 39px;
     color: #54078A;
+    font-family: "Open Sans", "sans-serif ";
+    font-weight: bolder;
 }
 
 .small-text {
     padding-top: 3%; 
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 
@@ -120,6 +123,7 @@ header {
     width: 100%;
     margin: 12px 0;
     border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .form-input input {
@@ -131,6 +135,7 @@ header {
     background: #F0F1F8; 
     border-radius: 7px;
     padding: 0 15px; 
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .form-button {

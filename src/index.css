@@ -24,6 +24,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 15px 0%;
+    font-family: "Open Sans", "sans-serif ";
 
 }
 
@@ -31,6 +32,7 @@ h3{
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: "Open Sans", "sans-serif ";
 }
 
 
