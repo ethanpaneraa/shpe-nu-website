@@ -87,7 +87,7 @@ p {
 
 
  .bott-art {
-    position: relative;
+    position: absolute;
     width: 100%;
     bottom: 0;
     display: block;
