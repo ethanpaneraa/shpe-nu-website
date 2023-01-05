@@ -80,7 +80,7 @@ header {
 
 
  .bott-art {
-    position: absolutegit;
+    position: absolute;
     width: 100%;
     bottom: 0;
     display: block;
