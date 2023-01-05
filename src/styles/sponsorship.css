@@ -172,7 +172,7 @@ header {
 
 .bott-art {
     position: absolute;
-    max-width: 100%;
+    width: 100%;
     bottom: 0px;
 }
 

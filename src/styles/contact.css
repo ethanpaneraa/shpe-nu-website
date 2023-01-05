@@ -81,7 +81,7 @@ header {
 
  .bott-art {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     bottom: 0;
     display: block;
 }
