@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -84,13 +85,19 @@ p {
     padding-right: 5px;
  }
 
-
+#container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 10%;
+}
 
  .bott-art {
-    position: absolute;
+    position: absolute; 
+    bottom: 0px;
     width: 100%;
-    bottom: 0;
-    display: block;
+    /* height: 150px; */
+
+    /* display: block; */
 }
 
 .grid {
