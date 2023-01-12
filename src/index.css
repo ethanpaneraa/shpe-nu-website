@@ -159,10 +159,9 @@ h3{
 
     text-align: center;
     justify-items: center;
-    padding: 20px;
+    padding: 50px;
     row-gap: 40px;
     margin-top: 10px;
-    border-bottom: 50px;
 }
 
 
@@ -173,10 +172,25 @@ h3{
     display: block;
 }
 
+.home-button {
+    position: relative;
+    text-align: center;
+    padding-bottom: 5%;
+}
 
+.bylaws-button {
 
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(84, 7, 138, 0.5);
+}
 
-
-
-
-
+.bylaws-button:hover {
+    border-color: #14245c;
+    border-style: solid;
+    background-color: rgb(84, 7, 138);
+}
