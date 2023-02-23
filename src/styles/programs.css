@@ -16,6 +16,7 @@ li, a {
     font-size: 14px;
     color: black;
     text-decoration: none;
+    list-style-type: none
 }
 
 
@@ -41,9 +42,6 @@ p {
     cursor: pointer;
     padding-right: 10%;
     padding-top: 1px;
-
-    
-
 }
 
 .nav__links__left {
@@ -114,11 +112,21 @@ p {
     margin-top: 10px;
 }
 
-.grid-cont p {
+.grid-cont p{
     text-align: left;
+    font-size: 20px;
+}
+
+li{
     font-size: 20px;
 }
 
 .grid-cont h1 {
     color: #54078A;
+}
+
+.hsip {
+    width: 75%;
+    height: auto;
+    border-radius: 10%;
 }
