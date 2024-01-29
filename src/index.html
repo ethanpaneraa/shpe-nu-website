@@ -10,25 +10,32 @@
         <link rel="stylesheet" href="index.css">
 
     </head>
+    
     <body>
-        <header>
-            <a href="../index.html" class="logo"><img src="./materials/shpe_logo2.png" alt="SHPE Northwestern's logo"></a>
-            <nav>
-                <ul class="nav__links__left">
-                    <li><a class="selected" href="index.html">Home</a></li>
-                    <li><a href="https://calendar.google.com/calendar/embed?src=shpe%40u.northwestern.edu&ctz=America%2FChicago" target="_blank">Events</a></li>
-                    <li><a href="pages/programs.html">Programs</a></li>
-                    <li><a href="pages/contact.html">Contact Us</a></li>
-                    <li><a href="https://facebook.us18.list-manage.com/subscribe?u=74341a84e86a8b9c67d738057&id=e347baffad" target="_blank">Newsletter</a></li>
-                    <li><a href="pages/board.html">Board</a></li>
-                    <li><a href="pages/sponsorship.html">Sponsorship</a></li>
-                    <li><a href="https://docs.google.com/document/d/1PBqM8B9F5Z-hxm69P63-492VVIMAWem1TxfeANA2QC0/edit?usp=sharing" target="_blank">Photos</a></li>
-            </nav>
-            <p class="follow-us">Follow us on Social Media!</p>
-            <a class="social-media"href="https://groupme.com/join_group/30690709/PO7uQlE8" target="_blank"><img alt="Groupme logo" src="materials/groupme_logo.png" width="25" height="25"></a>
-            <a class="social-media" href="https://www.instagram.com/shpe_nu/?hl=en" target="_blank"><img alt="Instagram logo" src="materials/instagram_logo.png" width="25" height="25"></a>
-        </header>
-
+        <nav class="navbar">
+            <!-- Logo section -->
+            <div class="logo">
+                <a href="index.html" class="logo"><img src="./materials/shpe_logo2.png" alt="SHPE Northwestern's logo"></a>
+            </div>
+            <!-- Navigation links -->
+            <ul class="nav__links__left">
+                <li><a class="selected" href="index.html">Home</a></li>
+                <li><a href="https://calendar.google.com/calendar/embed?src=shpe%40u.northwestern.edu&ctz=America%2FChicago" target="_blank">Events</a></li>
+                <li><a href="pages/programs.html">Programs</a></li>
+                <li><a href="pages/contact.html">Contact Us</a></li>
+                <li><a href="https://facebook.us18.list-manage.com/subscribe?u=74341a84e86a8b9c67d738057&id=e347baffad" target="_blank">Newsletter</a></li>
+                <li><a href="pages/board.html">Board</a></li>
+                <li><a href="pages/sponsorship.html">Sponsorship</a></li>
+                <li><a href="https://docs.google.com/document/d/1PBqM8B9F5Z-hxm69P63-492VVIMAWem1TxfeANA2QC0/edit?usp=sharing" target="_blank">Photos</a></li>
+            </ul>
+            <!-- Burger menu button for mobile view -->
+            <button class="burger">
+                <!-- Each span acts as a line in the burger icon -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
 
         <div class="container">
             <img class="banner" src="materials/home-background.jpeg">
@@ -89,6 +96,7 @@
                     your to your continuous improvement and renewal. We learn from our successes, setbacks, and from each other</p>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
     
     <footer>
